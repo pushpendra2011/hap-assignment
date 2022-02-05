@@ -1,0 +1,47 @@
+svg {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+.action-on-list {
+  display: flex;
+  gap: 10px;
+}
+.card-container {
+  width: 50vw;
+}
+
+.action-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+h4,
+p {
+  margin: 5px;
+}
+
+.friend-card {
+  display: flex;
+  /* max-width: 400px; */
+
+  padding: 10px;
+  justify-content: space-between;
+}
+
+ol {
+  list-style-type: none;
+  padding: 0;
+  border: 1px solid #ddd;
+  max-width: 400px;
+}
+
+ol li {
+  padding: 8px 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+ol li:last-child {
+  border-bottom: none;
+}
